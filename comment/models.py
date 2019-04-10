@@ -11,4 +11,4 @@ class Comments(models.Model):
         verbose_name_plural = 'Коментарии'
 
     def __str__(self):
-        return self.created
+        return self.text
